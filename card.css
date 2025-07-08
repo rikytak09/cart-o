@@ -27,5 +27,23 @@ body{
    padding:15px:
 }
 .card-body h2{
-   margin:bottom;
+   margin-bottom:5px;
 }
+.card-body p{
+   color:#777;
+   padding:15px;
+}
+.card-footer{
+   background:#fff;
+   padding:15px;
+   transition:all 0.4s ease;
+   opacity:0;
+   transform: translatey(20px);
+   visibility:hidden;
+}
+.card:hover .card-footer{
+   opacity:1;
+   transform:translatey(0);
+   visibility:visible;
+}
+
